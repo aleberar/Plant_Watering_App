@@ -9,7 +9,7 @@
 /*MAIN PAGE EDITS*/
 .scroll-pane .viewport {
     -fx-background-color: #a2cf6e;
-    -fx-background-image: url(b2.jpg);
+    -fx-background-image: url(../PICTURES/b2.jpg);
     -fx-background-position:center;
     -fx-background-repeat:no-repeat;
     -fx-background-size: 100% 100%;
@@ -35,28 +35,28 @@
 }
 
 #aloeVeraButton{
-    -fx-background-image: url("aloeVera.png");
+    -fx-background-image: url("../PICTURES/aloeVera.PNG");
 }
 #dracaenaButton{
-    -fx-background-image: url("dracaena.PNG");
+    -fx-background-image: url("../PICTURES/dracaena.PNG");
 }
 #monsteraButton{
-    -fx-background-image: url("monstera.PNG");
+    -fx-background-image: url("../PICTURES/monstera.png");
 }
 #pathosButton{
-    -fx-background-image: url("pathos.PNG");
+    -fx-background-image: url("../PICTURES/pathos.PNG");
 }
 #peaceLilyButton{
-    -fx-background-image: url("peaceLily.PNG");
+    -fx-background-image: url("../PICTURES/peaceLily.PNG");
 }
 #zzPlantButton{
-    -fx-background-image: url("ZZ.PNG");
+    -fx-background-image: url("../PICTURES/ZZ.PNG");
 }
 #jadePlantButton{
-    -fx-background-image: url("jadePlant.png");
+    -fx-background-image: url("../PICTURES/jadePlant.png");
 }
 #customButton{
-    -fx-background-image: url("custom.PNG");
+    -fx-background-image: url("../PICTURES/custom.PNG");
 }
 
 
