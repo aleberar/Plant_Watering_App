@@ -1,5 +1,7 @@
 package DATA_TYPES;//import java.util.Date;
 //import java.sql.Date;
+import javafx.scene.paint.Color;
+
 import java.time.LocalDateTime;
 
 public class Plant {
@@ -10,6 +12,8 @@ public class Plant {
     private LocalDateTime nextWateredDate;
     private String imagePath;
     private String description;
+    private String nickname;
+    private Color color;
 
     //constructors
     public Plant(String name, int time, LocalDateTime lastWateredDate, LocalDateTime nextWateredDate, String imagePath,  String description) {
@@ -31,6 +35,14 @@ public class Plant {
         this.imagePath = imagePath;
         this.lastWateredDate = lastWateredDate;
         this.description = description;
+    }
+
+    public Plant(String name, LocalDateTime lastWateredDate, String nickname, Color color) {
+        this.name = name;
+        this.lastWateredDate = lastWateredDate;
+        this.nickname = nickname;
+        this.color = color;
+
     }
     public Plant() {}
 

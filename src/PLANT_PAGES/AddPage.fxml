@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000" prefWidth="1800" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PLANT_PAGES.AddPageController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1000" prefWidth="1800">
+         <children>
+            <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="47.0" prefWidth="202.0" text="BACK" />
+            <Button fx:id="addButton" layoutX="1505.0" layoutY="899.0" mnemonicParsing="false" onAction="#addButtonAction" prefHeight="64.0" prefWidth="256.0" text="ADD" />
+            <TextField fx:id="nicknameTextField" layoutX="216.0" layoutY="212.0" prefHeight="25.0" prefWidth="610.0" />
+            <Text layoutX="216.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YOUR PLANT'S NICKNAME" wrappingWidth="271.13671875" />
+            <Text layoutX="216.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAST TIME YOU WATERED YOUR PLANT " wrappingWidth="293.13671875" />
+            <DatePicker fx:id="waterDatePicker" layoutX="216.0" layoutY="436.0" prefHeight="25.0" prefWidth="610.0" />
+            <ColorPicker fx:id="plantColorPicker" layoutX="216.0" layoutY="654.0" prefHeight="25.0" prefWidth="610.0" />
+            <Text layoutX="216.0" layoutY="650.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YOUR PLANT'S CHOSEN COLOR" wrappingWidth="353.13671875" />
+            <ImageView fx:id="plantImageView" fitHeight="636.0" fitWidth="446.0" layoutX="1187.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
