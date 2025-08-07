@@ -15,7 +15,7 @@
             <Button fx:id="peaceLilyButton" layoutX="784.0" layoutY="73.0" mnemonicParsing="false" onAction="#switchToPeaceLily" prefHeight="380.0" prefWidth="270.0" />
             <Button fx:id="zzPlantButton" layoutX="1191.0" layoutY="568.0" mnemonicParsing="false" onAction="#switchToZZPlant" prefHeight="380.0" prefWidth="270.0" />
             <Button fx:id="jadePlantButton" layoutX="784.0" layoutY="568.0" mnemonicParsing="false" onAction="#switchToJadePlant" prefHeight="380.0" prefWidth="270.0" />
-            <Button fx:id="customButton" layoutX="783.0" layoutY="1050.0" mnemonicParsing="false" prefHeight="380.0" prefWidth="270.0" />
+            <Button fx:id="customButton" layoutX="783.0" layoutY="1050.0" mnemonicParsing="false" onAction="#customPlantSwitch" prefHeight="380.0" prefWidth="270.0" />
             <Button fx:id="pathosButton" layoutX="347.0" layoutY="568.0" mnemonicParsing="false" onAction="#switchToPathos" prefHeight="380.0" prefWidth="270.0" />
             <Label fx:id="aloeVeraText" layoutX="345.0" layoutY="453.0" prefWidth="131.0" text="Aloe Vera" />
             <Label fx:id="dracaenaText" layoutX="1191.0" layoutY="453.0" text="Dracaena " />
@@ -25,6 +25,7 @@
             <Label fx:id="jadePlantText" layoutX="783.0" layoutY="951.0" text="Jade Plant" />
             <Label fx:id="pathosText" layoutX="347.0" layoutY="944.0" prefHeight="31.0" prefWidth="68.0" text="Pathos" />
             <Label fx:id="mainText" layoutX="14.0" layoutY="14.0" text="Chose your plant..." />
+            <Button fx:id="yourPlantsButton" layoutX="1191.0" layoutY="1059.0" mnemonicParsing="false" prefHeight="380.0" prefWidth="270.0" />
          </children>
       </AnchorPane>
    </content>

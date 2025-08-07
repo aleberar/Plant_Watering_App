@@ -2,6 +2,8 @@ package MAIN_APP;
 
 import DATA_TYPES.Plant;
 import DATA_TYPES.User;
+import PLANT_PAGES.AddPageController;
+import PLANT_PAGES.CustomPlantPageController;
 import PLANT_PAGES.PlantDetailsController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
@@ -192,6 +194,23 @@ public class Controller {
         String zzPlantDetails = "ZZ plants, scientifically known as Zamioculcas zamiifolia, are popular houseplants known for their resilience and low-maintenance nature. Native to eastern Africa, they are surprisingly drought-tolerant due to their potato-like rhizomes that store water. They can thrive in low-light conditions and are relatively slow-growing, making them ideal for indoor spaces. ";
         selectedPlant = new Plant("ZZ Plant", "/PICTURES/ZZ.PNG", zzPlantDetails);
         plantController.setPlant(selectedPlant);
+
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root, 1800, 1000);
+        stage.setScene(scene);
+        stage.setResizable(false);
+
+        stage.show();
+    }
+
+
+    //CUSTOM PLANT
+    public void customPlantSwitch(ActionEvent event) throws IOException {
+        FXMLLoader customPlantLoader = new FXMLLoader(getClass().getResource("/PLANT_PAGES/CustomPlantPage.fxml"));
+        Parent root = customPlantLoader.load();
+        CustomPlantPageController customPlantPageController = customPlantLoader.getController();
+
+        customPlantPageController.setUser(selectedUser);
 
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root, 1800, 1000);
