@@ -1,0 +1,97 @@
+/*MAIN PAGE*/
+.root{
+    /*-fx-background-color: rgb(129,186,62);*/
+    //-fx-background-color: #a2cf6e;
+
+
+}
+
+/*MAIN PAGE EDITS*/
+.scroll-pane .viewport {
+    -fx-background-color: #a2cf6e;
+    -fx-background-image: url(../PICTURES/b2.jpg);
+    -fx-background-position:center;
+    -fx-background-repeat:no-repeat;
+    -fx-background-size: 100% 100%;
+}
+/*LABELS ON THE PAGE*/
+.label{
+    -fx-text-fill: rgb(38, 94, 16);
+    -fx-font-size: 20;
+    -fx-font-family: "Book Antiqua";
+    -fx-alignment-baseline: center;
+
+}
+#mainText{
+    -fx-font-size: 45;
+}
+
+/*BUTTONS*/
+.button{
+    -fx-alignment-baseline: center;
+    -fx-background-position:center;
+    -fx-background-repeat:no-repeat;
+    -fx-background-size: 100% 100%;
+}
+
+#aloeVeraButton{
+    -fx-background-image: url("../PICTURES/aloeVera.PNG");
+}
+#dracaenaButton{
+    -fx-background-image: url("../PICTURES/dracaena.PNG");
+}
+#monsteraButton{
+    -fx-background-image: url("../PICTURES/monstera.png");
+}
+#pathosButton{
+    -fx-background-image: url("../PICTURES/pathos.PNG");
+}
+#peaceLilyButton{
+    -fx-background-image: url("../PICTURES/peaceLily.PNG");
+}
+#zzPlantButton{
+    -fx-background-image: url("../PICTURES/ZZ.PNG");
+}
+#jadePlantButton{
+    -fx-background-image: url("../PICTURES/jadePlant.png");
+}
+#customButton{
+    -fx-background-image: url("../PICTURES/custom.PNG");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

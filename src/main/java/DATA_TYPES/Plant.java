@@ -6,6 +6,8 @@ import java.time.LocalDateTime;
 
 public class Plant {
 
+    private int id;
+    private int user_id;
     private String name;
     private int time; // nr of hours until next watering
     private LocalDateTime lastWateredDate;
@@ -96,6 +98,37 @@ public class Plant {
         this.description = description;
     }
 
+    public String getNickname() {
+        return nickname;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getUser_id() {
+        return user_id;
+    }
+
+    public void setUser_id(int user_id) {
+        this.user_id = user_id;
+    }
     //methods
 
     /** function that calculates the next watering date

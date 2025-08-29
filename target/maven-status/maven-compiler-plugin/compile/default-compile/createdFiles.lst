@@ -1,0 +1,11 @@
+PLANT_PAGES\UserPlantController.class
+MAIN_APP\MainPage.class
+PLANT_PAGES\PlantDetailsController.class
+DATABASE\DatabaseConnection.class
+MAIN_APP\Main.class
+DATA_TYPES\Plant.class
+DATA_TYPES\User.class
+MAIN_APP\Controller.class
+PLANT_PAGES\YourPlantsPageController.class
+PLANT_PAGES\CustomPlantPageController.class
+PLANT_PAGES\AddPageController.class

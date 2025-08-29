@@ -2,7 +2,6 @@ package MAIN_APP;
 
 import DATA_TYPES.Plant;
 import DATA_TYPES.User;
-import PLANT_PAGES.AddPageController;
 import PLANT_PAGES.CustomPlantPageController;
 import PLANT_PAGES.PlantDetailsController;
 import javafx.event.ActionEvent;
@@ -51,7 +50,7 @@ public class Controller {
         stage.show();
     }
     public void switchBackFromMonstera(ActionEvent event) throws IOException {
-        //Parent root = FXMLLoader.load(getClass().getResource("mainPage.fxml"));
+        //Parent root = FXMLLoader.load(getClass().getResource("/mainPage.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         stage.setScene(Main.enterScene);
         //Sstage.setScene(scene);

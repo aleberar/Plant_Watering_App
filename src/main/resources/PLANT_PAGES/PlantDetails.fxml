@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000" prefWidth="1800" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PLANT_PAGES.PlantDetailsController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1000" prefWidth="1800">
+         <children>
+            <ImageView fx:id="plantImageView" fitHeight="729.0" fitWidth="475.0" layoutX="201.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" />
+            <TextArea fx:id="plantInfoTextArea" layoutX="900.0" layoutY="174.0" prefHeight="653.0" prefWidth="581.0" />
+            <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="46.0" prefWidth="187.0" text="BACK" />
+            <Button fx:id="addPlantButton" layoutX="1481.0" layoutY="905.0" mnemonicParsing="false" onAction="#addButtonAction" prefHeight="49.0" prefWidth="254.0" text="ADD" />
+            <Label fx:id="plantNameLabel" layoutX="246.0" layoutY="18.0" prefHeight="17.0" prefWidth="181.0" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
